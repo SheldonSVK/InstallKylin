@@ -27,11 +27,11 @@ echo 'export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native' >>~/.bashrc
 echo 'export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin' >>~/.bashrc
 echo 'export HADOOP_PREFIX=$HADOOP_HOME' >>~/.bashrc
 
-# Download and unpac HIVE 2.3.6
-wget https://downloads.apache.org/hive/hive-2.3.6/apache-hive-2.3.6-bin.tar.gz
-tar xzf apache-hive-2.3.6-bin.tar.gz
-mv apache-hive-2.3.6-bin hive
-rm apache-hive-2.3.6-bin.tar.gz
+# Download and unpac HIVE 2.3.7
+wget https://downloads.apache.org/hive/hive-2.3.7/apache-hive-2.3.7-bin.tar.gz
+tar xzf apache-hive-2.3.7-bin.tar.gz
+mv apache-hive-2.3.7-bin hive
+rm apache-hive-2.3.7-bin.tar.gz
 
 # Configure HIVE
 cp hive/conf/hive-env.sh.template hive/conf/hive-env.sh

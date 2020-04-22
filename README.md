@@ -17,7 +17,7 @@
 
 3. sudo bash install.sh
     - Download and config Hadoop 2.10.0
-    - Download and config HIVE 2.3.6
+    - Download and config HIVE 2.3.7
     - Download and config HBASE 1.4.13
     - Download and config Kylin 2.6.5
     - Run Kylin script download-spark.sh
